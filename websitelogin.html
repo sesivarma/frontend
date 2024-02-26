@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./websitelogin.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box" >
+                <div id="btn"></div>
+                <button type="button"  class="toggle-btn" onclick="register()">Log In</button>
+
+                <button type="button"  class="toggle-btn" onclick="login()">Register</button>
+                
+            </div> <form id="login" action="" class="input-group">
+                <input id="email1" type="text" class="input-field" placeholder="User id / Email id" >
+                <input id="password1" type="text" class="input-field" placeholder="Enter password">
+                <!-- <input type="checkbox" class="check-box" name="" id=""><span>Remember Password</span> -->
+                <button id="demo1" type="submit" class="submit-btn">Log in</button>
+            </form>
+
+
+            <form id="register" action="" class="input-group">
+               
+                <input id="name" type="text" class="input-field" placeholder="User id" required>
+                <input id="email" type="email" class="input-field" placeholder="Email id" required>
+                <input id="password" type="text" class="input-field" placeholder="Enter password" required>
+                <!-- <input type="checkbox" class="check-box" name="" id=""><span>I agree to the terms & conditions</span> -->
+                <button id="demo" type="submit" class="submit-btn">Register</button>
+            </form>
+           
+            
+        </div>
+    </div>
+    <script src="./websitelogin.js">
+    </script>
+</body>
+</html>
